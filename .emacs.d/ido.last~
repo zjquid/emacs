@@ -1,0 +1,35 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/andrew/dots/" . "polybar/")
+ ("/home/andrew/" . "dots/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/andrew/.emacs.d/"
+ "/home/andrew/dots/polybar/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "config.org"
+ "config.el"
+ "config"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/andrew/.emacs.d/" (24787 50506 5619 794000) "config.org" "../" "elpa/" "init.el~" "config.el" "./" "init.el" "config.org~" "auto-save-list/")
+
+ ("/home/andrew/dots/polybar/" (24787 50249 158335 594000) "config" ".#config" "../" "./" "launch.sh" "autorice_arch.sh")
+
+ ("/home/andrew/dots/" (24786 39339 319500 383000) "bspwm/" "README.md" "../" ".dwm/" "./" ".vimrc" "picom/" ".git/" "awesome/" "tint2/" ".bashrc" ".Xresources" "polybar/" "i3/" "kitty/" "openbox/")
+
+ ("/home/andrew/" (24787 48976 119024 562000) "neovim/" ".urxvt/" "st/" "test.org~" ".Xclients" "Templates/" ".surf/" ".ICEauthority" ".dmrc" "thinkpadfixes/" ".Xauthority" ".bashrc~" "Downloads/" "../" "lisp" ".xsession-errors" ".pki/" "dots/" ".icons/" ".fehbg" "metacity.png" ".config/" "temp" ".emacs.d/" ".xsession-errors.old" ".ssh/" "Desktop/" "wiig/" "goodwill.txt" ".gnupg/" "specs.png" "./" "dmenu/" "Music/" ".dir_colors" ".bash_history" "yay/" "VirtualBox VMs/" ".xinitrc" ".bash_logout" ".mozilla/" ".bash_profile" "cap.png" "Public/" ".local/" "kayak_confirmation.png" "test.org" "todo.md" ".themes/" "website/" ".calc_history" "surf/" ".bashrc" ".cache/" "Pictures/" "Videos/" ".lesshst" ".Xresources" "firefox/" ".vim/" ".gtkrc-2.0" "polybar-themes/" ".profile" "emaccing/" ".gitconfig")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
