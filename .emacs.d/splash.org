@@ -1,7 +1,26 @@
-Test splash screen
 
-Hello world
 
+
+			 Good Morning, Andrew
+		     What are you emaccing today?
+
+		  |--------+-----------------------|   
+		  | recent | Saved                 |
+		  |--------+-----------------------|
+		  |        | [[~/.emacs.d/init.el][~/.emacs.d/init.el]]    |
+		  |        | [[~/.emacs.d/config.org][~/.emacs.d/config.org]] |
+		  |--------+-----------------------|
+
+
+
+
+		
 * Todo:
 ** C-x 3 make cursor move to new window
-** uncle dave probably covers this in the next tutorial 
+   alias C-x 3 = C-x 3 C-x o
+** Splash page
+*** Table autocenter
+*** Auto-add recent files (difficult???)
+*** Observe other splash pages for inspiration
+*** Make keybind to save file path to the splash page? (dope but hard???)    
+   
