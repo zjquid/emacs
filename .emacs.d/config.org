@@ -21,6 +21,7 @@
 ** Preferences
 #+begin_src emacs-lisp
   (setq make-backup-file nil) ;; stops making those ~ files
+  (setq auto-save-default nil)
 
   (defalias 'yes-or-no-p 'y-or-n-p) ;; turns "yes" and "no" questions to "y" and "p"
   (when window-system (global-hl-line-mode t)) ;; highlights the entire line (gui only) - may remove later... testing it out
@@ -51,7 +52,6 @@
      (setq ido-everywhere t)
      (ido-mode 1)
 #+end_src
-
 ** ido-vertical
    #+begin_src emacs-lisp
      (use-package ido-vertical-mode
@@ -59,7 +59,6 @@
        :init
        (ido-vertical-mode 1)) ;; this makes the menu vertical for easier legibility
    #+end_src
-
 ** Smex
    #+begin_src emacs-lisp
      (use-package smex
@@ -68,7 +67,6 @@
        :bind
        ("M-x" . smex))
    #+end_src
-
 ** Switch Buffer
    #+begin_src emacs-lisp
      (global-set-key (kbd "C-x C-b") 'ido-switch-buffer)
@@ -78,7 +76,6 @@
    #+begin_src emacs-lisp
      (global-set-key (kbd "C-x b") 'ibuffer)
    #+end_src
-
 ** Expert Mode
    #+begin_src emacs-lisp
      (setq ibuffer-expert 1)

@@ -121,6 +121,7 @@
 #+end_src
 
 * Splash Screen
+  Chooses the file Emacs shows when it is opened
 #+begin_src emacs-lisp
   (setq initial-buffer-choice "~/.emacs.d/splash.org")
 #+end_src

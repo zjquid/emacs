@@ -10,6 +10,7 @@
   (add-hook 'org-mode-hook (lambda () (org-bullets-mode))))
 
 (setq make-backup-file nil) ;; stops making those ~ files
+(setq auto-save-default nil)
 
 (defalias 'yes-or-no-p 'y-or-n-p) ;; turns "yes" and "no" questions to "y" and "p"
 (when window-system (global-hl-line-mode t)) ;; highlights the entire line (gui only) - may remove later... testing it out
