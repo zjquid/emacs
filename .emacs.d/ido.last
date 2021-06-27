@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/andrew/.oh-my-zsh/" . "themes/")
  ("/home/andrew/dots/" . "polybar/")
  ("/home/andrew/" . "dots/")
 )
@@ -9,26 +10,39 @@
 ;; ----- ido-work-directory-list -----
 (
  "/home/andrew/.emacs.d/"
+ "/home/andrew/.oh-my-zsh/themes/"
+ "/home/andrew/"
  "/home/andrew/dots/polybar/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "init.el"
  "config.org"
+ "init.el"
+ "splash.org"
+ "andrew.zsh-theme"
+ "gallifrey.zsh-theme"
+ ".zshrc"
+ ".bashrc"
  "config.el"
  "config"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/andrew/.emacs.d/" (24787 50506 5619 794000) "config.org" "../" "elpa/" "init.el~" "config.el" "./" "init.el" "config.org~" "auto-save-list/")
+ ("/home/andrew/.emacs.d/" (24791 49475 761713 39000) "config.org" "../" "ido.last~" "elpa/" "init.el~" "splash.org~" "config.el" "./" "init.el" "splash.org" "config.org~" "auto-save-list/" "smex-items" "ido.last")
 
- ("/home/andrew/dots/polybar/" (24787 50249 158335 594000) "config" ".#config" "../" "./" "launch.sh" "autorice_arch.sh")
+ ("/home/andrew/.oh-my-zsh/themes/" (24791 34992 868667 557000) "rkj.zsh-theme" "amuse.zsh-theme" "strug.zsh-theme" "dpoggi.zsh-theme" "mikeh.zsh-theme" "cypher.zsh-theme" "jnrowe.zsh-theme" "dallas.zsh-theme" "mortalscumbag.zsh-theme" "intheloop.zsh-theme" "suvash.zsh-theme" "mlh.zsh-theme" "sammy.zsh-theme" "3den.zsh-theme" "murilasso.zsh-theme" "frisk.zsh-theme" "blinks.zsh-theme" "nebirhos.zsh-theme" "gallifrey.zsh-theme" "smt.zsh-theme" "andrew.zsh-theme~" "crunch.zsh-theme" "darkblood.zsh-theme" "minimal.zsh-theme" "xiong-chiamiov.zsh-theme" "Soliah.zsh-theme" "bureau.zsh-theme" "muse.zsh-theme" "fishy.zsh-theme" "frontcube.zsh-theme" "tjkirch_mod.zsh-theme" "humza.zsh-theme" "../" "macovsky-ruby.zsh-theme" "candy.zsh-theme" "rixius.zsh-theme" "gozilla.zsh-theme" "fox.zsh-theme" "pygmalion.zsh-theme" "mh.zsh-theme" "agnoster.zsh-theme" "steeef.zsh-theme" "lukerandall.zsh-theme" "pygmalion-virtualenv.zsh-theme" "edvardm.zsh-theme" "re5et.zsh-theme" "dstufft.zsh-theme" "pmcgee.zsh-theme" "gallois.zsh-theme" "kafeitu.zsh-theme" "macovsky.zsh-theme" "miloshadzic.zsh-theme" "random.zsh-theme" "robbyrussell.zsh-theme" "clean.zsh-theme" "maran.zsh-theme" "apple.zsh-theme" "rgm.zsh-theme" "sorin.zsh-theme" "gnzh.zsh-theme" "sunaku.zsh-theme" "./" "josh.zsh-theme" "wuffers.zsh-theme" "gentoo.zsh-theme" "dst.zsh-theme" "mrtazz.zsh-theme" "refined.zsh-theme" "lambda.zsh-theme" "evan.zsh-theme" "candy-kingdom.zsh-theme" "jonathan.zsh-theme" "aussiegeek.zsh-theme" "superjarin.zsh-theme" "terminalparty.zsh-theme" "xiong-chiamiov-plus.zsh-theme" "arrow.zsh-theme" "simonoff.zsh-theme" "juanghurtado.zsh-theme" "simple.zsh-theme" "dieter.zsh-theme" "junkfood.zsh-theme" "af-magic.zsh-theme" "essembeh.zsh-theme" "philips.zsh-theme" "tonotdo.zsh-theme" "gianu.zsh-theme" "mira.zsh-theme" "kphoen.zsh-theme" "jreese.zsh-theme" "fino-time.zsh-theme" "kennethreitz.zsh-theme" "jtriley.zsh-theme" "geoffgarside.zsh-theme" "kiwi.zsh-theme" "jbergantine.zsh-theme" "trapd00r.zsh-theme" "sporty_256.zsh-theme" "risto.zsh-theme" "andrew.zsh-theme" "wedisagree.zsh-theme" "ys.zsh-theme" "nicoulaj.zsh-theme" "duellj.zsh-theme" "linuxonly.zsh-theme" "imajes.zsh-theme" "fino.zsh-theme" "tjkirch.zsh-theme" "fletcherm.zsh-theme" "peepcode.zsh-theme" "zhann.zsh-theme" "daveverwer.zsh-theme" "half-life.zsh-theme" "itchy.zsh-theme" "kardan.zsh-theme" "michelebologna.zsh-theme" "cloud.zsh-theme" "bira.zsh-theme" "flazz.zsh-theme" "garyblessington.zsh-theme" "mgutz.zsh-theme" "rkj-repos.zsh-theme" "awesomepanda.zsh-theme" "jaischeema.zsh-theme" "dogenpunk.zsh-theme" "wezm.zsh-theme" "fwalch.zsh-theme" "norm.zsh-theme" "eastwood.zsh-theme" "alanpeabody.zsh-theme" "emotty.zsh-theme" "sunrise.zsh-theme" "afowler.zsh-theme" "avit.zsh-theme" "sonicradish.zsh-theme" "takashiyoshida.zsh-theme" "adben.zsh-theme" "funky.zsh-theme" "jispwoso.zsh-theme" "nanotech.zsh-theme" "kolo.zsh-theme" "crcandy.zsh-theme" "obraun.zsh-theme" "theunraveler.zsh-theme" "skaro.zsh-theme" "wezm+.zsh-theme")
+
+ ("/home/andrew/" (24791 49072 874215 268000) "neovim/" ".urxvt/" "st/" ".Xclients" "Templates/" ".surf/" ".fzf/" ".ICEauthority" ".zshrc.pre-oh-my-zsh" ".dmrc" "emacs/" "thinkpadfixes/" ".Xauthority" ".bashrc~" ".hplip/" "Downloads/" "../" "lisp" ".xsession-errors" ".pki/" "dots/" ".icons/" ".fehbg" ".zsh_history" ".shell.pre-oh-my-zsh" ".config/" ".oh-my-zsh/" ".emacs.d/" ".zshrc" ".xsession-errors.old" ".ssh/" "Desktop/" "wiig/" ".gnupg/" "./" ".wget-hsts" "dmenu/" "Music/" ".dir_colors" ".bash_history" "yay/" ".zcompdump-workstation-5.8" "VirtualBox VMs/" ".xinitrc" ".fzf.zsh" ".bash_logout" ".mozilla/" ".bash_profile" "Public/" ".local/" ".zshrc~" "kayak_confirmation.png" ".themes/" "website/" ".calc_history" ".bashrc" ".cache/" ".lesshst" ".Xresources" "firefox/" ".vim/" ".gtkrc-2.0" ".fzf.bash" "polybar-themes/" ".profile" ".Xmodmap" ".gitconfig")
+
+ ("/home/andrew/dots/polybar/" (24787 50271 935417 745000) "config" "../" "./" "launch.sh" "autorice_arch.sh")
+
+ ("/home/" (24778 4115 896226 778000) "../" "andrew/" "./")
+
+ ("/home/andrew/.oh-my-zsh/" (24788 60181 500326 199000) ".gitignore" "lib/" "oh-my-zsh.sh" ".github/" "README.md" "../" "log/" "themes/" ".gitpod.yml" "tools/" "cache/" "./" "CODE_OF_CONDUCT.md" "templates/" ".git/" "LICENSE.txt" "plugins/" "CONTRIBUTING.md" "custom/" ".editorconfig" ".gitpod.Dockerfile")
 
  ("/home/andrew/dots/" (24786 39339 319500 383000) "bspwm/" "README.md" "../" ".dwm/" "./" ".vimrc" "picom/" ".git/" "awesome/" "tint2/" ".bashrc" ".Xresources" "polybar/" "i3/" "kitty/" "openbox/")
-
- ("/home/andrew/" (24787 48976 119024 562000) "neovim/" ".urxvt/" "st/" "test.org~" ".Xclients" "Templates/" ".surf/" ".ICEauthority" ".dmrc" "thinkpadfixes/" ".Xauthority" ".bashrc~" "Downloads/" "../" "lisp" ".xsession-errors" ".pki/" "dots/" ".icons/" ".fehbg" "metacity.png" ".config/" "temp" ".emacs.d/" ".xsession-errors.old" ".ssh/" "Desktop/" "wiig/" "goodwill.txt" ".gnupg/" "specs.png" "./" "dmenu/" "Music/" ".dir_colors" ".bash_history" "yay/" "VirtualBox VMs/" ".xinitrc" ".bash_logout" ".mozilla/" ".bash_profile" "cap.png" "Public/" ".local/" "kayak_confirmation.png" "test.org" "todo.md" ".themes/" "website/" ".calc_history" "surf/" ".bashrc" ".cache/" "Pictures/" "Videos/" ".lesshst" ".Xresources" "firefox/" ".vim/" ".gtkrc-2.0" "polybar-themes/" ".profile" "emaccing/" ".gitconfig")
 )
 
 ;; ----- ido-unc-hosts-cache -----

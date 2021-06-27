@@ -1,5 +1,5 @@
 * Terminal
-** Setting default shell to bash
+** Setting Default Shell to Bash
   #+begin_src emacs-lisp
     (defvar my-term-shell "/bin/bash")
     (defadvice ansi-term (before force-bash)
@@ -9,14 +9,14 @@
   #+end_src
 
 * Org
-** Org bullets
+** Org Bullets
    #+begin_src emacs-lisp
      (use-package org-bullets
        :ensure t
        :config
        (add-hook 'org-mode-hook (lambda () (org-bullets-mode))))
    #+end_src
-
+   
 * Basic settings
 ** Preferences
 #+begin_src emacs-lisp
@@ -39,4 +39,88 @@
   (scroll-bar-mode -1)
 
   (setq inhibit-startup-message t)
+
+  (org-indent-mode 1)
+#+end_src
+
+* IDO
+** Enable ido Mode
+#+begin_src emacs-lisp
+     (setq ido-enable-flex-matching nil)
+     (setq ido-create-new-buffer 'always)
+     (setq ido-everywhere t)
+     (ido-mode 1)
+#+end_src
+
+** ido-vertical
+   #+begin_src emacs-lisp
+     (use-package ido-vertical-mode
+       :ensure t
+       :init
+       (ido-vertical-mode 1)) ;; this makes the menu vertical for easier legibility
+   #+end_src
+
+** Smex
+   #+begin_src emacs-lisp
+     (use-package smex
+       :ensure t
+       :init (smex-initialize)
+       :bind
+       ("M-x" . smex))
+   #+end_src
+
+** Switch Buffer
+   #+begin_src emacs-lisp
+     (global-set-key (kbd "C-x C-b") 'ido-switch-buffer)
+   #+end_src
+* Buffers
+** Enable Buffer
+   #+begin_src emacs-lisp
+     (global-set-key (kbd "C-x b") 'ibuffer)
+   #+end_src
+
+** Expert Mode
+   #+begin_src emacs-lisp
+     (setq ibuffer-expert 1)
+   #+end_src
+
+* Avy
+  #+begin_src emacs-lisp
+    (use-package avy
+      :ensure t
+      :bind
+      ("M-s" . avy-goto-char))
+  #+end_src
+
+* Config Edit/Reload
+** Edit
+   #+begin_src emacs-lisp
+     (defun config-visit ()
+       (interactive)
+       (find-file "~/.emacs.d/config.org"))
+     (global-set-key (kbd "C-c e") 'config-visit)
+   #+end_src
+   
+** Reload
+   #+begin_src emacs-lisp
+     (defun config-reload ()
+       (interactive)
+       (org-babel-load-file (expand-file-name "~/.emacs.d/config.org")))
+     (global-set-key (kbd "C-c r") 'config-reload)
+		     
+   #+end_src
+
+* Rainbow
+** Initialize Package
+#+begin_src emacs-lisp
+  (use-package rainbow-mode
+    :ensure t
+    :init
+    (dolist (hook '(css-mode-hook html-mode-hook sass-mode-hook))
+      (add-hook hook 'rainbow-mode)))
+#+end_src
+
+* Splash Screen
+#+begin_src emacs-lisp
+  (setq initial-buffer-choice "~/.emacs.d/splash.org")
 #+end_src

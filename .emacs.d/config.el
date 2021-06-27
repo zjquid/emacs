@@ -73,3 +73,5 @@
   :init
   (dolist (hook '(css-mode-hook html-mode-hook sass-mode-hook))
     (add-hook hook 'rainbow-mode)))
+
+(setq initial-buffer-choice "~/.emacs.d/splash.org")
