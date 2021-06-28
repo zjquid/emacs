@@ -88,7 +88,12 @@
       :bind
       ("M-s" . avy-goto-char))
   #+end_src
-
+  
+* Icons
+#+begin_src emacs-lisp
+  (use-package all-the-icons
+    :ensure t)
+#+end_src
 * Config Edit/Reload
 ** Edit
    #+begin_src emacs-lisp
@@ -120,5 +125,44 @@
 * Splash Screen
   Chooses the file Emacs shows when it is opened
 #+begin_src emacs-lisp
-  (setq initial-buffer-choice "~/.emacs.d/splash.org")
+  ;; (setq initial-buffer-choice "~/.emacs.d/splash.org")
+  (setq initial-buffer-choice (lambda () (get-buffer "*dashboard*")))
+
 #+end_src
+
+* Dashboard
+  This will probably replace the Splash Screen...
+** Initialize package
+   #+begin_src emacs-lisp
+     (use-package dashboard
+       :ensure t
+       :config
+       (dashboard-setup-startup-hook))
+   #+end_src
+
+** Dashboard Configuartion
+#+begin_src emacs-lisp
+  (setq dashboard-banner-logo-title "Good Morning, Andrew")
+  (setq dashboard-startup-banner "~/.emacs.d/splashtext.txt")
+  (setq dashboard-show-shortcuts nil)
+  (setq dashboard-set-heading-icons t)
+  (setq dashboard-set-file-icons t)
+#+end_src
+
+** Navigator
+   #+begin_src emacs-lisp
+     (setq dashboard-set-navigator t) ;; initializes navigator
+
+     (setq dashboard-navigator-buttons
+	   `(;; line1
+	     ((,(all-the-icons-octicon "mark-github" :height 1.1 :v-adjust 0.0)
+	       "Homepage"
+	       "Browse Homepage"
+	       (lambda (&rest _) (browse-url "https://github.com/zjquid/"))))
+	     ;; line2
+	     ((,(all-the-icons-octicon "inbox" :height 1.1 :v-adjust 0.0)
+	       "Email"
+	       "Email"
+	       (lambda (&rest _) (browse-url "https://mail.google.com")))
+	      ("flag" nil "Show Flags" (lambda (&rest _) (message "flag")) error))))
+   #+end_src

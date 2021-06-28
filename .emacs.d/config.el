@@ -59,6 +59,9 @@
   :bind
   ("M-s" . avy-goto-char))
 
+(use-package all-the-icons
+  :ensure t)
+
 (defun config-visit ()
   (interactive)
   (find-file "~/.emacs.d/config.org"))
@@ -75,4 +78,31 @@
   (dolist (hook '(css-mode-hook html-mode-hook sass-mode-hook))
     (add-hook hook 'rainbow-mode)))
 
-(setq initial-buffer-choice "~/.emacs.d/splash.org")
+;; (setq initial-buffer-choice "~/.emacs.d/splash.org")
+(setq initial-buffer-choice (lambda () (get-buffer "*dashboard*")))
+
+(use-package dashboard
+  :ensure t
+  :config
+  (dashboard-setup-startup-hook))
+
+(setq dashboard-banner-logo-title "Good Morning, Andrew")
+(setq dashboard-startup-banner "~/.emacs.d/splashtext.txt")
+(setq dashboard-show-shortcuts nil)
+(setq dashboard-set-heading-icons t)
+(setq dashboard-set-file-icons t)
+
+(setq dashboard-set-navigator t) ;; initializes navigator
+
+(setq dashboard-navigator-buttons
+      `(;; line1
+	((,(all-the-icons-octicon "mark-github" :height 1.1 :v-adjust 0.0)
+	  "Homepage"
+	  "Browse Homepage"
+	  (lambda (&rest _) (browse-url "https://github.com/zjquid/"))))
+	;; line2
+	((,(all-the-icons-octicon "inbox" :height 1.1 :v-adjust 0.0)
+	  "Email"
+	  "Email"
+	  (lambda (&rest _) (browse-url "https://mail.google.com")))
+	 ("flag" nil "Show Flags" (lambda (&rest _) (message "flag")) error))))
