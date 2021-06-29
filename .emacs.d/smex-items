@@ -13,5 +13,5 @@
 ;; ----- smex-data -----
 (
  (print-buffer . 2)
- (package-install . 1)
+ (package-install . 5)
 )

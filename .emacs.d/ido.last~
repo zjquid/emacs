@@ -18,6 +18,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "splashtext.txt"
  "init.el"
  "emacs_ascii.txt"
  "splash.org"
@@ -27,14 +28,13 @@
  "config.org"
  "andrew.zsh-theme"
  "gallifrey.zsh-theme"
- ".zshrc"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/andrew/.emacs.d/" (24793 14727 964831 962000) "config.org" "emacs_ascii.txt" "../" "ido.last~" "elpa/" "init.el~" "config.el" "./" "init.el" "recentf" "splash.org" "config.org~" "auto-save-list/" "smex-items" "emacs_ascii.txt~" "ido.last" "recentf~")
+ ("/home/andrew/.emacs.d/" (24794 30252 492847 21000) "ido.last" "splashtext.txt" "emacs_ascii.txt" "config.el" "smex-items" "recentf~" "auto-save-list/" "elpa/" "ido.last~" "splash.org" "config.org" "config.org~" "init.el" "init.el~" "./" "../" "recentf")
 
- ("/home/andrew/" (24793 14354 967819 29000) "neovim/" ".urxvt/" "st/" ".Xclients" "Templates/" ".surf/" ".fzf/" ".ICEauthority" ".zshrc.pre-oh-my-zsh" ".dmrc" "emacs/" "thinkpadfixes/" ".Xauthority" ".bashrc~" ".hplip/" "Downloads/" "../" "lisp" ".xsession-errors" ".pki/" "dots/" ".icons/" ".fehbg" ".zsh_history" ".shell.pre-oh-my-zsh" ".config/" ".oh-my-zsh/" ".emacs.d/" ".zshrc" ".xsession-errors.old" ".ssh/" "Desktop/" "wiig/" ".gnupg/" "./" ".wget-hsts" "dmenu/" "Music/" ".dir_colors" ".bash_history" "yay/" ".zcompdump-workstation-5.8" "VirtualBox VMs/" ".xinitrc" ".fzf.zsh" "test.png" ".bash_logout" ".mozilla/" ".bash_profile" "Public/" ".local/" ".zshrc~" "kayak_confirmation.png" ".themes/" "website/" ".calc_history" ".bashrc" ".cache/" ".lesshst" ".Xresources" "firefox/" ".vim/" ".gtkrc-2.0" ".fzf.bash" "polybar-themes/" ".profile" ".Xmodmap" ".gitconfig")
+ ("/home/andrew/" (24793 15183 361094 415000) "neovim/" ".urxvt/" "st/" ".Xclients" "Templates/" ".surf/" ".fzf/" ".ICEauthority" ".zshrc.pre-oh-my-zsh" ".dmrc" "emacs/" "thinkpadfixes/" ".Xauthority" ".bashrc~" ".hplip/" "Downloads/" "../" "lisp" ".xsession-errors" ".pki/" "dots/" ".icons/" ".fehbg" ".zsh_history" ".shell.pre-oh-my-zsh" ".config/" ".oh-my-zsh/" ".emacs.d/" ".zshrc" ".xsession-errors.old" ".ssh/" "Desktop/" "wiig/" ".gnupg/" "./" ".wget-hsts" "dmenu/" "Music/" ".dir_colors" ".bash_history" "yay/" ".zcompdump-workstation-5.8" "VirtualBox VMs/" ".xinitrc" ".fzf.zsh" "test.png" ".bash_logout" ".mozilla/" ".bash_profile" "Public/" ".local/" ".zshrc~" "kayak_confirmation.png" ".themes/" "website/" ".calc_history" ".bashrc" ".cache/" ".lesshst" ".Xresources" "firefox/" ".vim/" ".gtkrc-2.0" ".fzf.bash" "polybar-themes/" ".profile" ".Xmodmap" ".gitconfig")
 
  ("/home/andrew/dots/" (24792 2114 833886 707000) "bspwm/" "README.md" "../" ".dwm/" ".zshrc" "./" ".vimrc" "picom/" ".git/" "awesome/" "andrew.zsh-theme" "tint2/" ".bashrc" ".Xresources" "polybar/" "i3/" "kitty/" "openbox/" ".Xmodmap")
 

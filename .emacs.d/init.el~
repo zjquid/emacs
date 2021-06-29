@@ -49,7 +49,7 @@
      ("XXX+" . "#dc752f")
      ("\\?\\?\\?+" . "#dc752f")))
  '(package-selected-packages
-   '(dashboard rainbow-mode avy smex ido-vertical-mode org-bullets beacon spacemacs-theme gruvbox-theme which-key use-package))
+   '(all-the-icons-ibuffer all-the-icons-gnus all-the-icons-dired all-the-icons dashboard rainbow-mode avy smex ido-vertical-mode org-bullets beacon spacemacs-theme gruvbox-theme which-key use-package))
  '(pdf-view-midnight-colors '("#655370" . "#fbf8ef")))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

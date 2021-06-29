@@ -61,6 +61,7 @@
 
 (use-package all-the-icons
   :ensure t)
+;; run M-x all-the-icons-install-fonts
 
 (defun config-visit ()
   (interactive)
@@ -94,15 +95,10 @@
 
 (setq dashboard-set-navigator t) ;; initializes navigator
 
-(setq dashboard-navigator-buttons
-      `(;; line1
-	((,(all-the-icons-octicon "mark-github" :height 1.1 :v-adjust 0.0)
-	  "Homepage"
-	  "Browse Homepage"
-	  (lambda (&rest _) (browse-url "https://github.com/zjquid/"))))
-	;; line2
-	((,(all-the-icons-octicon "inbox" :height 1.1 :v-adjust 0.0)
-	  "Email"
-	  "Email"
-	  (lambda (&rest _) (browse-url "https://mail.google.com")))
-	 ("flag" nil "Show Flags" (lambda (&rest _) (message "flag")) error))))
+(setq dashboard-footer-messages '("replace this with $ fortune or something"))
+(setq dashboard-footer-icon (all-the-icons-octicon "dashboard"
+						   :height 1.1
+						   :v-adjust -0.05
+						   :face 'font-lock-keyword-face))
+
+(setq dashboard-week-agenda t)

@@ -93,6 +93,7 @@
 #+begin_src emacs-lisp
   (use-package all-the-icons
     :ensure t)
+  ;; run M-x all-the-icons-install-fonts
 #+end_src
 * Config Edit/Reload
 ** Edit
@@ -143,8 +144,27 @@
 ** Dashboard Configuartion
 #+begin_src emacs-lisp
   (setq dashboard-banner-logo-title "Good Morning, Andrew")
-  (setq dashboard-startup-banner "~/.emacs.d/emacs_ascii.txt")
+  (setq dashboard-startup-banner "~/.emacs.d/splashtext.txt")
   (setq dashboard-show-shortcuts nil)
   (setq dashboard-set-heading-icons t)
   (setq dashboard-set-file-icons t)
+#+end_src
+
+** Navigator
+   #+begin_src emacs-lisp
+     (setq dashboard-set-navigator t) ;; initializes navigator
+   #+end_src
+
+** Footer
+   #+begin_src emacs-lisp
+     (setq dashboard-footer-messages '("test footer"))
+     (setq dashboard-footer-icon (all-the-icons-octicon "dashboard"
+							:height 1.1
+							:v-adjust -0.05
+							:face 'font-lock-keyword-face))
+   #+end_src
+
+** Agenda
+#+begin_src emacs-lisp
+  (setq dashboard-week-agenda t)
 #+end_src
