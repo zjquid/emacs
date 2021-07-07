@@ -1,8 +1,8 @@
 
 ;; ----- smex-history -----
 (
- tetris
  package-install
+ tetris
  print-buffer
  cd
  5x5
@@ -13,6 +13,6 @@
 ;; ----- smex-data -----
 (
  (print-buffer . 2)
- (package-install . 5)
+ (package-install . 6)
  (tetris . 3)
 )

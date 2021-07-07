@@ -108,3 +108,7 @@
 						   :face 'font-lock-keyword-face))
 
 (setq dashboard-week-agenda t)
+
+;; (use-package auctex
+;;   :ensure t)
+;; figure out why this doesn't work

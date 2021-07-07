@@ -10,15 +10,16 @@
 ;; ----- ido-work-directory-list -----
 (
  "/home/andrew/.emacs.d/"
+ "/home/andrew/"
  "/home/andrew/dots/"
  "/home/andrew/.oh-my-zsh/themes/"
- "/home/andrew/"
  "/home/andrew/dots/polybar/"
 )
 
 ;; ----- ido-work-file-list -----
 (
  "config.org"
+ "test.tex"
  "fortune.sh"
  "agenda.org"
  "splashtext.txt"
@@ -27,14 +28,13 @@
  "splash.org"
  "README.md"
  "splash3.txt"
- "splash2.org"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/andrew/" (24806 7391 176110 803000) ".mozilla/" ".pulse-cookie" ".doom.d/" "Documents/" "Desktop/" ".Xclients" ".local/" ".emacs.d/" ".cache/" ".xsession-errors" ".dir_colors" ".bash_logout" ".bash_history" "firefox/" ".dmrc" ".bashrc" ".config/" ".gtkrc-2.0" ".gitconfig" ".icons/" "Templates/" ".spacemacs" ".bash_profile" "polybar-themes/" "neovim/" ".xsession-errors.old" "wiig/" ".Xauthority" "Public/" ".Xresources" ".Xmodmap" ".steam/" "dots/" "Videos/" "dmenu/" "emacs/" ".spacemacs.env" "Downloads/" "Music/" "./" ".steampid" "Pictures/" ".profile" ".vim/" ".steampath" ".gnupg/" ".ICEauthority" ".fehbg" ".xinitrc" "../" ".twmrc" ".pki/")
+ ("/home/andrew/.emacs.d/" (24806 8209 262795 575000) "ido.last" "splashtext.txt" "config.el" "smex-items" "recentf~" "auto-save-list/" "games/" "elpa/" "agenda.org" "fortune.sh" "ido.last~" "splash.org" "config.org" "data/" ".org-id-locations" "init.el" "init.el~" "./" "../" "recentf")
 
- ("/home/andrew/.emacs.d/" (24806 7394 646110 884000) "fortune.sh~" "ido.last" "splashtext.txt" "config.el" "smex-items" "auto-save-list/" "games/" "elpa/" "agenda.org" "fortune.sh" "splash.org" "config.org" "data/" ".org-id-locations" "init.el" "./" "../" "recentf")
+ ("/home/andrew/" (24806 9844 252831 832000) ".mozilla/" ".pulse-cookie" ".doom.d/" "Documents/" "Desktop/" ".Xclients" ".local/" ".emacs.d/" "test.log" ".cache/" ".xsession-errors" "_region_.prv/" "test.aux" ".dir_colors" ".bash_logout" "prv_test.fmt" ".bash_history" "firefox/" ".dmrc" ".bashrc" ".config/" ".gtkrc-2.0" ".gitconfig" ".icons/" "Templates/" ".spacemacs" ".bash_profile" "polybar-themes/" "neovim/" ".xsession-errors.old" "wiig/" ".Xauthority" "prv_test.log" "Public/" ".Xresources" "test.dvi" "test.pdf" ".Xmodmap" "_region_.tex" ".steam/" "_region_.log" "dots/" "Videos/" "dmenu/" "emacs/" ".spacemacs.env" "Downloads/" "Music/" "test.tex~" "./" ".steampid" "Pictures/" ".profile" ".xdvirc" ".vim/" ".steampath" ".gnupg/" ".ICEauthority" ".fehbg" ".xinitrc" "../" "test.tex" ".twmrc" ".pki/")
 
  ("/home/" (24794 25263 372808 551000) "andrew/" "./" "../")
 

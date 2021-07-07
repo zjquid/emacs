@@ -181,3 +181,10 @@
 #+end_src
 
 * Org Agenda
+* LaTeX
+** AucTeX package
+   #+begin_src emacs-lisp
+     ;; (use-package auctex
+     ;;   :ensure t)
+     ;; figure out why this doesn't work
+   #+end_src
