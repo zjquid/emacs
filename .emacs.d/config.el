@@ -9,6 +9,12 @@
   :config
   (add-hook 'org-mode-hook (lambda () (org-bullets-mode))))
 
+(setq org-agenda-files (list "~/.emacs.d/agenda.org"))
+
+(global-set-key (kbd "C-c l") 'org-store-link)
+(global-set-key (kbd "C-c a") 'org-agenda)
+(global-set-key (kbd "C-c c") 'org-capture)
+
 (setq make-backup-file nil) ;; stops making those ~ files
 (setq auto-save-default nil)
 
@@ -95,7 +101,7 @@
 
 (setq dashboard-set-navigator t) ;; initializes navigator
 
-(setq dashboard-footer-messages '("replace this with $ fortune or something"))
+(setq dashboard-footer-messages (list (shell-command-to-string "~/.emacs.d/fortune.sh") nil))
 (setq dashboard-footer-icon (all-the-icons-octicon "dashboard"
 						   :height 1.1
 						   :v-adjust -0.05

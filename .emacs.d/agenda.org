@@ -1,0 +1,9 @@
+Org Agenda File
+
+* Tasks
+** TODO emacs tutorial super basic??
+** TODO org mode tutorial - if yt doesn't have any?
+   
+
+
+

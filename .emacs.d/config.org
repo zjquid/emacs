@@ -16,7 +16,18 @@
        :config
        (add-hook 'org-mode-hook (lambda () (org-bullets-mode))))
    #+end_src
-   
+
+** Org Agenda Files
+   #+begin_src emacs-lisp
+     (setq org-agenda-files (list "~/.emacs.d/agenda.org"))			    			   
+   #+end_src
+
+** Org Keybindings
+#+begin_src emacs-lisp
+  (global-set-key (kbd "C-c l") 'org-store-link)
+  (global-set-key (kbd "C-c a") 'org-agenda)
+  (global-set-key (kbd "C-c c") 'org-capture)
+#+end_src
 * Basic settings
 ** Preferences
 #+begin_src emacs-lisp
@@ -157,7 +168,7 @@
 
 ** Footer
    #+begin_src emacs-lisp
-     (setq dashboard-footer-messages '("replace this with $ fortune or something"))
+     (setq dashboard-footer-messages (list (shell-command-to-string "~/.emacs.d/fortune.sh") nil))
      (setq dashboard-footer-icon (all-the-icons-octicon "dashboard"
 							:height 1.1
 							:v-adjust -0.05
@@ -168,3 +179,5 @@
 #+begin_src emacs-lisp
   (setq dashboard-week-agenda t)
 #+end_src
+
+* Org Agenda
