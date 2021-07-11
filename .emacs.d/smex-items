@@ -1,18 +1,21 @@
 
 ;; ----- smex-history -----
 (
+ describe-font
+ menu-set-font
+ all-the-icons-install-fonts
  package-install
  tetris
  print-buffer
  cd
- 5x5
- arp
- dbx
 )
 
 ;; ----- smex-data -----
 (
  (print-buffer . 2)
- (package-install . 6)
+ (package-install . 7)
  (tetris . 3)
+ (all-the-icons-install-fonts . 1)
+ (menu-set-font . 3)
+ (describe-font . 2)
 )

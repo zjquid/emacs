@@ -112,3 +112,6 @@
 ;; (use-package auctex
 ;;   :ensure t)
 ;; figure out why this doesn't work
+
+(add-to-list 'default-frame-alist '(font . "Hack Nerd Font Mono-15"))
+(set-face-attribute 'default t :font "Hack Nerd Font Mono-15")

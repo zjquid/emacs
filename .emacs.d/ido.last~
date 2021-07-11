@@ -34,8 +34,6 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/andrew/" (24810 25093 288019 47000) "polybar-themes/" ".zcompdump-thick-5.8" "Desktop/" "Public/" ".vim/" ".bash_history" ".config/" "neovim/" ".gnupg/" ".cache/" ".local/" ".emacs.d/" ".gtkrc-2.0" ".zcompdump" "dots/" "wiig/" "snap/" ".Xmodmap" "Downloads/" ".shell.pre-oh-my-zsh" ".zshrc" ".sudo_as_admin_successful" ".mozilla/" "Pictures/" "Templates/" ".oh-my-zsh/" "Music/" "Videos/" ".ssh/" "../" ".bashrc" ".fehbg" "./" ".profile" ".zsh_history" "emacs/" ".bash_logout")
-
  ("/home/andrew/.config/i3/" (24810 23596 773233 580000) "config" "../" "./")
 
  ("/home/andrew/.config/" (24810 23746 39130 827000) "gtk-3.0/" "qBittorrent/" "evolution/" "eog/" "dconf/" "nautilus/" "polybar/" "gnome-session/" "i3/" "user-dirs.locale" "neofetch/" "update-notifier/" "gnome-initial-setup-done" "kitty/" "user-dirs.dirs" "goa-1.0/" "ibus/" "gnome-games/" "../" "pulse/" "gnome-control-center/" "./" "polybar.old/")
@@ -43,6 +41,8 @@
  ("/home/andrew/dots/openbox/" (24810 11976 154158 310000) "readme.md" "autostart" "rc.xml" "environment" "../" "menu.xml" "./")
 
  ("/home/andrew/dots/" (24810 11976 154158 310000) "README.md" "bspwm/" ".dwm/" "picom/" "polybar/" "i3/" ".Xmodmap" "x131e_xbindkeys" "tint2/" ".zshrc" "kitty/" "andrew.zsh-theme" ".git/" "openbox/" ".vimrc" ".Xresources" "../" ".bashrc" "./" "awesome/")
+
+ ("/home/andrew/" (24810 23871 690806 436000) "polybar-themes/" "Desktop/" "Public/" ".bash_history" ".config/" ".gnupg/" ".cache/" ".local/" ".emacs.d/" ".gtkrc-2.0" "dots/" "wiig/" "snap/" ".Xmodmap" "Downloads/" ".sudo_as_admin_successful" ".mozilla/" "Pictures/" "Templates/" "Music/" "Videos/" ".ssh/" "../" ".bashrc" "./" ".profile" "emacs/" ".bash_logout")
 
  ("/home/andrew/.emacs.d/" (24806 8209 262795 575000) "ido.last" "splashtext.txt" "config.el" "smex-items" "recentf~" "auto-save-list/" "games/" "elpa/" "agenda.org" "fortune.sh" "ido.last~" "splash.org" "config.org" "data/" ".org-id-locations" "init.el" "init.el~" "./" "../" "recentf")
 
