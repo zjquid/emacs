@@ -1,0 +1,13 @@
+#+TITLE: zjquid emacs config
+#+OPTIONS: num:nil
+
+* installation
+** prerequisites
+*** emacs (duh)   
+*** if using gentoo compile emacs with xft and gui use flags!
+** install stuff
+#+begin_src bash
+  git clone https://github.com/zjquid/emacs ~/.emacs.d
+#+end_src
+* updates
+  run the update.sh script to update the config (doesn't update emacs itself)
