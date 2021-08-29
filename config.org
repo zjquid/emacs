@@ -31,7 +31,7 @@
 * Basic settings
 ** Preferences
 #+begin_src emacs-lisp
-  (setq make-backup-file nil) ;; stops making those ~ files
+  (setq make-backup-files nil) ;; stops making those ~ files
   (setq auto-save-default nil)
 
   (defalias 'yes-or-no-p 'y-or-n-p) ;; turns "yes" and "no" questions to "y" and "p"

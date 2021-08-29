@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/" . "andrew/")
  ("/home/andrew/.oh-my-zsh/" . "themes/")
  ("/home/andrew/dots/" . "openbox/")
  ("/home/andrew/" . ".config/")
@@ -9,10 +10,12 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/andrew/"
+ "/home/andrew/zjquid.github.io/"
+ "/home/andrew/.emacs.d/"
+ "/home/andrew/homework/"
  "/home/andrew/.config/i3/"
  "/home/andrew/dots/openbox/"
- "/home/andrew/.emacs.d/"
- "/home/andrew/"
  "/home/andrew/dots/"
  "/home/andrew/.oh-my-zsh/themes/"
  "/home/andrew/dots/polybar/"
@@ -20,37 +23,41 @@
 
 ;; ----- ido-work-file-list -----
 (
- "config"
- "rc.xml"
+ "test.org"
+ "token.txt"
+ "mech343.org"
+ "index.org"
+ "latextest.org"
  "config.org"
- "test.tex"
- "fortune.sh"
- "agenda.org"
- "splashtext.txt"
- "init.el"
- "emacs_ascii.txt"
- "splash.org"
+ ".gitignore"
+ "README.org"
+ "mech371.org"
+ "caam335.org"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/andrew/" (24810 25093 288019 47000) "polybar-themes/" ".zcompdump-thick-5.8" "Desktop/" "Public/" ".vim/" ".bash_history" ".config/" "neovim/" ".gnupg/" ".cache/" ".local/" ".emacs.d/" ".gtkrc-2.0" ".zcompdump" "dots/" "wiig/" "snap/" ".Xmodmap" "Downloads/" ".shell.pre-oh-my-zsh" ".zshrc" ".sudo_as_admin_successful" ".mozilla/" "Pictures/" "Templates/" ".oh-my-zsh/" "Music/" "Videos/" ".ssh/" "../" ".bashrc" ".fehbg" "./" ".profile" ".zsh_history" "emacs/" ".bash_logout")
+ ("/home/" (24849 30691 871369 804000) "andrew/" "../" "./")
 
- ("/home/andrew/.config/i3/" (24810 23596 773233 580000) "config" "../" "./")
+ ("/home/andrew/dots/" (24873 17572 961410 729000) ".bashrc" "x131e_xbindkeys" "neovim.sh" "README.md" "tint2/" "bspwm/" "../" ".Xresources" "i3/" "andrew.zsh-theme" "awesome/" ".git/" ".dwm/" ".vimrc" "test.png" "polybar/" "kitty/" ".Xmodmap" "openbox/" ".zshrc" "deploy.sh" "./" "picom/")
+
+ ("/home/andrew/homework/" (24872 22442 578003 221000) "../" "psyc203/" ".git/" "mech343/" "mech371/" "332lab/" ".gitignore" "README.org" "./" "caam335/")
+
+ ("/home/andrew/" (24874 62539 143658 747000) ".bashrc" "Public/" ".ICEauthority" "photoshop/" ".bash_logout" "firefox/" ".xsession-errors.old" ".bash_profile" ".local/" "token.txt" ".config/" "emacs/" ".gtkrc-2.0" "../" "zjquid.github.io/" ".bash_history" ".Xresources" ".vim/" "Documents/" ".gitconfig" "Videos/" "wiig/" ".xinitrc" "pats/" ".Xclients" "homework/" ".fehbg" ".dir_colors" "Pictures/" ".gnupg/" ".wine/" "Music/" "polybar-themes/" ".emacs.d/" ".xsession-errors" "Downloads/" ".mozilla/" ".Xmodmap" ".lesshst" "nerd-fonts/" ".icons/" "Desktop/" "Templates/" "neovim/" ".profile" ".Xauthority" "./" ".dmrc" ".cache/" "sdcardbackup/" "dots/")
+
+ ("/home/andrew/.emacs.d/" (24874 62576 790121 465000) "init.el" "../" "recentf" "splashtext.txt" "agenda.org" "elpa/" "ido.last" "config.org" "splash.org" "auto-save-list/" "recentf~" "config.el" ".git/" "games/" "data/" "ido.last~" ".org-id-locations" "README.org" "smex-items" "./" "update.sh" "fortune.sh")
+
+ ("/home/andrew/zjquid.github.io/" (24874 2413 594335 14000) "dance.gif" "psyc203.html" "gabagool.gif" "chap1.html" "mech371.org" "README.md" "caam335.html" "../" "psyc203.org" "index.html~" "caam335.html~" "latextest.html" "mech343.org" "class1.html" "mech343.html" "mech371.org~" "404.org" "class1.org" "mech343.html~" ".git/" "index.html" "psyc203.org~" "caam335.org" "latextest.org" "404.html" ".gitignore" "psyc203.html~" "mech343.org~" "./" "index.org" "mech371.html" "mech371.html~" "caam335.org~")
+
+ ("/home/andrew/dots/polybar/" (24849 31235 145365 694000) "autorice_arch.sh" "config" "launch.sh" "../" "./")
+
+ ("/home/andrew/dots/openbox/" (24868 14723 426563 830000) "readme.md" "../" "rc.xml" "environment" "autostart" "./" "menu.xml" "rc_winkey.xml")
+
+ ("/home/andrew/.config/i3/" (24849 31849 352028 614000) "config" "../" "i3/" "./")
 
  ("/home/andrew/.config/" (24810 23746 39130 827000) "gtk-3.0/" "qBittorrent/" "evolution/" "eog/" "dconf/" "nautilus/" "polybar/" "gnome-session/" "i3/" "user-dirs.locale" "neofetch/" "update-notifier/" "gnome-initial-setup-done" "kitty/" "user-dirs.dirs" "goa-1.0/" "ibus/" "gnome-games/" "../" "pulse/" "gnome-control-center/" "./" "polybar.old/")
 
- ("/home/andrew/dots/openbox/" (24810 11976 154158 310000) "readme.md" "autostart" "rc.xml" "environment" "../" "menu.xml" "./")
-
- ("/home/andrew/dots/" (24810 11976 154158 310000) "README.md" "bspwm/" ".dwm/" "picom/" "polybar/" "i3/" ".Xmodmap" "x131e_xbindkeys" "tint2/" ".zshrc" "kitty/" "andrew.zsh-theme" ".git/" "openbox/" ".vimrc" ".Xresources" "../" ".bashrc" "./" "awesome/")
-
- ("/home/andrew/.emacs.d/" (24806 8209 262795 575000) "ido.last" "splashtext.txt" "config.el" "smex-items" "recentf~" "auto-save-list/" "games/" "elpa/" "agenda.org" "fortune.sh" "ido.last~" "splash.org" "config.org" "data/" ".org-id-locations" "init.el" "init.el~" "./" "../" "recentf")
-
- ("/home/" (24794 25263 372808 551000) "andrew/" "./" "../")
-
  ("/home/andrew/.oh-my-zsh/themes/" (24791 34992 868667 557000) "rkj.zsh-theme" "amuse.zsh-theme" "strug.zsh-theme" "dpoggi.zsh-theme" "mikeh.zsh-theme" "cypher.zsh-theme" "jnrowe.zsh-theme" "dallas.zsh-theme" "mortalscumbag.zsh-theme" "intheloop.zsh-theme" "suvash.zsh-theme" "mlh.zsh-theme" "sammy.zsh-theme" "3den.zsh-theme" "murilasso.zsh-theme" "frisk.zsh-theme" "blinks.zsh-theme" "nebirhos.zsh-theme" "gallifrey.zsh-theme" "smt.zsh-theme" "andrew.zsh-theme~" "crunch.zsh-theme" "darkblood.zsh-theme" "minimal.zsh-theme" "xiong-chiamiov.zsh-theme" "Soliah.zsh-theme" "bureau.zsh-theme" "muse.zsh-theme" "fishy.zsh-theme" "frontcube.zsh-theme" "tjkirch_mod.zsh-theme" "humza.zsh-theme" "../" "macovsky-ruby.zsh-theme" "candy.zsh-theme" "rixius.zsh-theme" "gozilla.zsh-theme" "fox.zsh-theme" "pygmalion.zsh-theme" "mh.zsh-theme" "agnoster.zsh-theme" "steeef.zsh-theme" "lukerandall.zsh-theme" "pygmalion-virtualenv.zsh-theme" "edvardm.zsh-theme" "re5et.zsh-theme" "dstufft.zsh-theme" "pmcgee.zsh-theme" "gallois.zsh-theme" "kafeitu.zsh-theme" "macovsky.zsh-theme" "miloshadzic.zsh-theme" "random.zsh-theme" "robbyrussell.zsh-theme" "clean.zsh-theme" "maran.zsh-theme" "apple.zsh-theme" "rgm.zsh-theme" "sorin.zsh-theme" "gnzh.zsh-theme" "sunaku.zsh-theme" "./" "josh.zsh-theme" "wuffers.zsh-theme" "gentoo.zsh-theme" "dst.zsh-theme" "mrtazz.zsh-theme" "refined.zsh-theme" "lambda.zsh-theme" "evan.zsh-theme" "candy-kingdom.zsh-theme" "jonathan.zsh-theme" "aussiegeek.zsh-theme" "superjarin.zsh-theme" "terminalparty.zsh-theme" "xiong-chiamiov-plus.zsh-theme" "arrow.zsh-theme" "simonoff.zsh-theme" "juanghurtado.zsh-theme" "simple.zsh-theme" "dieter.zsh-theme" "junkfood.zsh-theme" "af-magic.zsh-theme" "essembeh.zsh-theme" "philips.zsh-theme" "tonotdo.zsh-theme" "gianu.zsh-theme" "mira.zsh-theme" "kphoen.zsh-theme" "jreese.zsh-theme" "fino-time.zsh-theme" "kennethreitz.zsh-theme" "jtriley.zsh-theme" "geoffgarside.zsh-theme" "kiwi.zsh-theme" "jbergantine.zsh-theme" "trapd00r.zsh-theme" "sporty_256.zsh-theme" "risto.zsh-theme" "andrew.zsh-theme" "wedisagree.zsh-theme" "ys.zsh-theme" "nicoulaj.zsh-theme" "duellj.zsh-theme" "linuxonly.zsh-theme" "imajes.zsh-theme" "fino.zsh-theme" "tjkirch.zsh-theme" "fletcherm.zsh-theme" "peepcode.zsh-theme" "zhann.zsh-theme" "daveverwer.zsh-theme" "half-life.zsh-theme" "itchy.zsh-theme" "kardan.zsh-theme" "michelebologna.zsh-theme" "cloud.zsh-theme" "bira.zsh-theme" "flazz.zsh-theme" "garyblessington.zsh-theme" "mgutz.zsh-theme" "rkj-repos.zsh-theme" "awesomepanda.zsh-theme" "jaischeema.zsh-theme" "dogenpunk.zsh-theme" "wezm.zsh-theme" "fwalch.zsh-theme" "norm.zsh-theme" "eastwood.zsh-theme" "alanpeabody.zsh-theme" "emotty.zsh-theme" "sunrise.zsh-theme" "afowler.zsh-theme" "avit.zsh-theme" "sonicradish.zsh-theme" "takashiyoshida.zsh-theme" "adben.zsh-theme" "funky.zsh-theme" "jispwoso.zsh-theme" "nanotech.zsh-theme" "kolo.zsh-theme" "crcandy.zsh-theme" "obraun.zsh-theme" "theunraveler.zsh-theme" "skaro.zsh-theme" "wezm+.zsh-theme")
-
- ("/home/andrew/dots/polybar/" (24787 50271 935417 745000) "config" "../" "./" "launch.sh" "autorice_arch.sh")
 
  ("/home/andrew/.oh-my-zsh/" (24788 60181 500326 199000) ".gitignore" "lib/" "oh-my-zsh.sh" ".github/" "README.md" "../" "log/" "themes/" ".gitpod.yml" "tools/" "cache/" "./" "CODE_OF_CONDUCT.md" "templates/" ".git/" "LICENSE.txt" "plugins/" "CONTRIBUTING.md" "custom/" ".editorconfig" ".gitpod.Dockerfile")
 )

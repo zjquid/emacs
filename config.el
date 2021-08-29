@@ -15,7 +15,7 @@
 (global-set-key (kbd "C-c a") 'org-agenda)
 (global-set-key (kbd "C-c c") 'org-capture)
 
-(setq make-backup-file nil) ;; stops making those ~ files
+(setq make-backup-files nil) ;; stops making those ~ files
 (setq auto-save-default nil)
 
 (defalias 'yes-or-no-p 'y-or-n-p) ;; turns "yes" and "no" questions to "y" and "p"
