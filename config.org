@@ -28,6 +28,17 @@
   (global-set-key (kbd "C-c a") 'org-agenda)
   (global-set-key (kbd "C-c c") 'org-capture)
 #+end_src
+** Word Wrapping
+   #+begin_src emacs-lisp
+     (add-hook 'org-mode-hook #'(lambda ()
+
+				  ;; make the lines in the buffer wrap around the edges of the screen.
+
+				  ;; to press C-c q  or fill-paragraph ever again!
+				  (visual-line-mode)
+				  (org-indent-mode)))
+
+   #+end_src
 * Basic settings
 ** Preferences
 #+begin_src emacs-lisp

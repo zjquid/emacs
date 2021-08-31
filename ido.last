@@ -12,48 +12,48 @@
 (
  "/home/andrew/"
  "/home/andrew/zjquid.github.io/"
+ "/home/andrew/dots/"
  "/home/andrew/.emacs.d/"
  "/home/andrew/homework/"
  "/home/andrew/.config/i3/"
  "/home/andrew/dots/openbox/"
- "/home/andrew/dots/"
  "/home/andrew/.oh-my-zsh/themes/"
  "/home/andrew/dots/polybar/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "test.org"
+ "temp.org"
  "token.txt"
  "mech343.org"
+ "deploy.sh"
+ "test.org"
  "index.org"
  "latextest.org"
  "config.org"
  ".gitignore"
  "README.org"
- "mech371.org"
- "caam335.org"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/andrew/" (24877 44209 687742 594000) ".fehbg" ".lesshst" ".emacs.d/" "Downloads/" ".Xauthority" ".gnupg/" ".ICEauthority" ".gitconfig" ".xsession-errors" "wiig/" ".Xresources" "Pictures/" ".bash_logout" "zjquid.github.io/" ".local/" "Music/" ".wget-hsts" ".config/" "../" ".#temp.org" ".cache/" "Public/" "neovim/" "Templates/" ".bash_history" ".Xmodmap" "Videos/" "nerd-fonts/" "homework/" "Documents/" ".vim/" ".bashrc" ".dmrc" ".mozilla/" "./" "Desktop/" "polybar-themes/" "dots/" "token.txt" ".xsession-errors.old" ".bash_profile")
+
+ ("/home/andrew/dots/polybar/" (24875 8346 817805 893000) "config" "autorice_arch.sh" "../" "./" "launch.sh")
+
+ ("/home/andrew/dots/openbox/" (24875 8346 817805 893000) "rc.xml" "autostart" "readme.md" "../" "environment" "./" "rc_winkey.xml" "menu.xml")
+
+ ("/home/andrew/.config/i3/" (24875 9010 922628 330000) "config" "../" "./")
+
+ ("/home/andrew/homework/" (24877 2960 31862 330000) ".git/" "../" "./")
+
+ ("/home/andrew/.emacs.d/" (24876 64743 407654 137000) ".git/" "recentf" "config.org" "smex-items" "splash.org" "elpa/" "README.org" "../" "ido.last" "agenda.org" "games/" "splashtext.txt" "update.sh" "fortune.sh" "init.el" "data/" "./" "config.el" "auto-save-list/" ".org-id-locations")
+
+ ("/home/andrew/zjquid.github.io/" (24877 2630 886063 718000) "index.org" "404.org" "dance.gif" ".git/" "latextest.html" "gabagool.gif" "psyc203.html" "latextest.org" "class1.org" "class1.html" "mech343.org" "../" "404.html" "caam335.html" "README.md" "chap1.html" ".#mech343.org" "./" "psyc203.org" "caam335.org" "mech371.html" "mech343.html" "index.html" "mech371.org" ".gitignore")
+
+ ("/home/andrew/dots/" (24875 8346 817805 893000) "x131e_xbindkeys" ".git/" "bspwm/" ".zshrc" "polybar/" ".Xresources" "awesome/" "picom/" "i3/" "test.png" "../" "README.md" "deploy.sh" ".Xmodmap" "tint2/" ".vimrc" "andrew.zsh-theme" ".bashrc" "./" "openbox/" "neovim.sh" "kitty/" ".dwm/")
+
  ("/home/" (24849 30691 871369 804000) "andrew/" "../" "./")
-
- ("/home/andrew/dots/" (24873 17572 961410 729000) ".bashrc" "x131e_xbindkeys" "neovim.sh" "README.md" "tint2/" "bspwm/" "../" ".Xresources" "i3/" "andrew.zsh-theme" "awesome/" ".git/" ".dwm/" ".vimrc" "test.png" "polybar/" "kitty/" ".Xmodmap" "openbox/" ".zshrc" "deploy.sh" "./" "picom/")
-
- ("/home/andrew/homework/" (24872 22442 578003 221000) "../" "psyc203/" ".git/" "mech343/" "mech371/" "332lab/" ".gitignore" "README.org" "./" "caam335/")
-
- ("/home/andrew/" (24874 62539 143658 747000) ".bashrc" "Public/" ".ICEauthority" "photoshop/" ".bash_logout" "firefox/" ".xsession-errors.old" ".bash_profile" ".local/" "token.txt" ".config/" "emacs/" ".gtkrc-2.0" "../" "zjquid.github.io/" ".bash_history" ".Xresources" ".vim/" "Documents/" ".gitconfig" "Videos/" "wiig/" ".xinitrc" "pats/" ".Xclients" "homework/" ".fehbg" ".dir_colors" "Pictures/" ".gnupg/" ".wine/" "Music/" "polybar-themes/" ".emacs.d/" ".xsession-errors" "Downloads/" ".mozilla/" ".Xmodmap" ".lesshst" "nerd-fonts/" ".icons/" "Desktop/" "Templates/" "neovim/" ".profile" ".Xauthority" "./" ".dmrc" ".cache/" "sdcardbackup/" "dots/")
-
- ("/home/andrew/.emacs.d/" (24874 62576 790121 465000) "init.el" "../" "recentf" "splashtext.txt" "agenda.org" "elpa/" "ido.last" "config.org" "splash.org" "auto-save-list/" "recentf~" "config.el" ".git/" "games/" "data/" "ido.last~" ".org-id-locations" "README.org" "smex-items" "./" "update.sh" "fortune.sh")
-
- ("/home/andrew/zjquid.github.io/" (24874 2413 594335 14000) "dance.gif" "psyc203.html" "gabagool.gif" "chap1.html" "mech371.org" "README.md" "caam335.html" "../" "psyc203.org" "index.html~" "caam335.html~" "latextest.html" "mech343.org" "class1.html" "mech343.html" "mech371.org~" "404.org" "class1.org" "mech343.html~" ".git/" "index.html" "psyc203.org~" "caam335.org" "latextest.org" "404.html" ".gitignore" "psyc203.html~" "mech343.org~" "./" "index.org" "mech371.html" "mech371.html~" "caam335.org~")
-
- ("/home/andrew/dots/polybar/" (24849 31235 145365 694000) "autorice_arch.sh" "config" "launch.sh" "../" "./")
-
- ("/home/andrew/dots/openbox/" (24868 14723 426563 830000) "readme.md" "../" "rc.xml" "environment" "autostart" "./" "menu.xml" "rc_winkey.xml")
-
- ("/home/andrew/.config/i3/" (24849 31849 352028 614000) "config" "../" "i3/" "./")
 
  ("/home/andrew/.config/" (24810 23746 39130 827000) "gtk-3.0/" "qBittorrent/" "evolution/" "eog/" "dconf/" "nautilus/" "polybar/" "gnome-session/" "i3/" "user-dirs.locale" "neofetch/" "update-notifier/" "gnome-initial-setup-done" "kitty/" "user-dirs.dirs" "goa-1.0/" "ibus/" "gnome-games/" "../" "pulse/" "gnome-control-center/" "./" "polybar.old/")
 

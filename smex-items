@@ -1,8 +1,8 @@
 
 ;; ----- smex-history -----
 (
- tetris
  all-the-icons-install-fonts
+ tetris
  describe-font
  menu-set-font
  package-install
@@ -15,7 +15,7 @@
  (print-buffer . 2)
  (package-install . 7)
  (tetris . 4)
- (all-the-icons-install-fonts . 2)
+ (all-the-icons-install-fonts . 3)
  (menu-set-font . 3)
  (describe-font . 2)
 )
