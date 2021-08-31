@@ -10,10 +10,10 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/andrew/.emacs.d/"
  "/home/andrew/"
  "/home/andrew/zjquid.github.io/"
  "/home/andrew/dots/"
- "/home/andrew/.emacs.d/"
  "/home/andrew/homework/"
  "/home/andrew/.config/i3/"
  "/home/andrew/dots/openbox/"
@@ -23,6 +23,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "init.el"
  "temp.org"
  "token.txt"
  "mech343.org"
@@ -32,12 +33,13 @@
  "latextest.org"
  "config.org"
  ".gitignore"
- "README.org"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/andrew/" (24877 44209 687742 594000) ".fehbg" ".lesshst" ".emacs.d/" "Downloads/" ".Xauthority" ".gnupg/" ".ICEauthority" ".gitconfig" ".xsession-errors" "wiig/" ".Xresources" "Pictures/" ".bash_logout" "zjquid.github.io/" ".local/" "Music/" ".wget-hsts" ".config/" "../" ".#temp.org" ".cache/" "Public/" "neovim/" "Templates/" ".bash_history" ".Xmodmap" "Videos/" "nerd-fonts/" "homework/" "Documents/" ".vim/" ".bashrc" ".dmrc" ".mozilla/" "./" "Desktop/" "polybar-themes/" "dots/" "token.txt" ".xsession-errors.old" ".bash_profile")
+ ("/home/andrew/.emacs.d/" (24877 48147 611209 393000) ".git/" "recentf" "config.org" "smex-items" "splash.org" "elpa/" "README.org" "../" "ido.last" "agenda.org" "games/" "splashtext.txt" "update.sh" "fortune.sh" "init.el" "data/" "./" "config.el" "auto-save-list/" ".org-id-locations" "url/")
+
+ ("/home/andrew/" (24877 44428 892765 427000) ".fehbg" ".lesshst" ".emacs.d/" "Downloads/" ".Xauthority" ".gnupg/" ".ICEauthority" ".gitconfig" ".xsession-errors" "wiig/" ".Xresources" "Pictures/" ".bash_logout" "zjquid.github.io/" ".local/" "Music/" ".wget-hsts" ".config/" "../" ".cache/" "Public/" "neovim/" "Templates/" ".bash_history" ".Xmodmap" "Videos/" "nerd-fonts/" "homework/" "Documents/" ".vim/" ".bashrc" ".dmrc" ".mozilla/" "./" "Desktop/" "polybar-themes/" "dots/" "token.txt" ".xsession-errors.old" ".bash_profile")
 
  ("/home/andrew/dots/polybar/" (24875 8346 817805 893000) "config" "autorice_arch.sh" "../" "./" "launch.sh")
 
@@ -46,8 +48,6 @@
  ("/home/andrew/.config/i3/" (24875 9010 922628 330000) "config" "../" "./")
 
  ("/home/andrew/homework/" (24877 2960 31862 330000) ".git/" "../" "./")
-
- ("/home/andrew/.emacs.d/" (24876 64743 407654 137000) ".git/" "recentf" "config.org" "smex-items" "splash.org" "elpa/" "README.org" "../" "ido.last" "agenda.org" "games/" "splashtext.txt" "update.sh" "fortune.sh" "init.el" "data/" "./" "config.el" "auto-save-list/" ".org-id-locations")
 
  ("/home/andrew/zjquid.github.io/" (24877 2630 886063 718000) "index.org" "404.org" "dance.gif" ".git/" "latextest.html" "gabagool.gif" "psyc203.html" "latextest.org" "class1.org" "class1.html" "mech343.org" "../" "404.html" "caam335.html" "README.md" "chap1.html" ".#mech343.org" "./" "psyc203.org" "caam335.org" "mech371.html" "mech343.html" "index.html" "mech371.org" ".gitignore")
 

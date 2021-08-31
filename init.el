@@ -1,3 +1,5 @@
+(setq frame-inhibit-implied-resize t) ;; prevent resize window on startup
+
 (setq x-super-keysym 'meta) ;; this binds Meta to the windows key (alt also works)
 
 (require 'package)
