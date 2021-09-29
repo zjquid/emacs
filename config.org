@@ -64,6 +64,9 @@
   (setq inhibit-startup-message t)
 
   (org-indent-mode 1)
+
+  (setq backup-directory-alist '(("" . "~/.emacs.d/emacs_backup"))) ;;backup directory
+
 #+end_src
 
 * IDO

@@ -46,6 +46,8 @@
 
 (org-indent-mode 1)
 
+(setq backup-directory-alist '(("" . "~/.emacs.d/emacs_backup"))) ;;backup directory
+
 (setq ido-enable-flex-matching nil)
 (setq ido-create-new-buffer 'always)
 (setq ido-everywhere t)

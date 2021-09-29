@@ -10,10 +10,11 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/andrew/microemacs/.emacs.d/"
  "/home/andrew/.emacs.d/"
  "/home/andrew/"
- "/home/andrew/zjquid.github.io/"
  "/home/andrew/dots/"
+ "/home/andrew/zjquid.github.io/"
  "/home/andrew/homework/"
  "/home/andrew/.config/i3/"
  "/home/andrew/dots/openbox/"
@@ -24,22 +25,28 @@
 ;; ----- ido-work-file-list -----
 (
  "init.el"
+ "initold.el"
+ ".xinitrc"
+ "x131e_xbindkeys"
  "temp.org"
  "token.txt"
  "mech343.org"
  "deploy.sh"
  "test.org"
  "index.org"
- "latextest.org"
- "config.org"
- ".gitignore"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/andrew/.emacs.d/" (24877 48147 611209 393000) ".git/" "recentf" "config.org" "smex-items" "splash.org" "elpa/" "README.org" "../" "ido.last" "agenda.org" "games/" "splashtext.txt" "update.sh" "fortune.sh" "init.el" "data/" "./" "config.el" "auto-save-list/" ".org-id-locations" "url/")
+ ("/home/andrew/microemacs/.emacs.d/" (24915 54762 490879 746000) "initold.el" "./" "../" "configold.org" "elpa/")
 
- ("/home/andrew/" (24877 44428 892765 427000) ".fehbg" ".lesshst" ".emacs.d/" "Downloads/" ".Xauthority" ".gnupg/" ".ICEauthority" ".gitconfig" ".xsession-errors" "wiig/" ".Xresources" "Pictures/" ".bash_logout" "zjquid.github.io/" ".local/" "Music/" ".wget-hsts" ".config/" "../" ".cache/" "Public/" "neovim/" "Templates/" ".bash_history" ".Xmodmap" "Videos/" "nerd-fonts/" "homework/" "Documents/" ".vim/" ".bashrc" ".dmrc" ".mozilla/" "./" "Desktop/" "polybar-themes/" "dots/" "token.txt" ".xsession-errors.old" ".bash_profile")
+ ("/home/andrew/microemacs/" (24915 54620 798314 27000) ".cache/" "./" "../" ".config/" ".emacs.d/")
+
+ ("/home/andrew/" (24915 54809 197293 383000) "emacs-openrc/" "Death Proof.mp4" ".dmrc" ".bash_profile" "nerd-fonts/" ".xinitrc" ".viminfo" "Downloads/" "grub2-themes/" ".Xauthority" "wiig/" ".mozilla/" ".python_history" ".cache/" "homework/" ".fehbg" "read2.bin" ".vim/" "dots/" "token.txt" ".init.el" ".bashrc" "ch341a_pattern.png" ".local/" ".bash_history" "init.el" "polybar-themes/" ".octave_hist" "neovim/" "./" ".xsession-errors" "writing/" "../" ".gitconfig" ".xsession-errors.old" ".config/" "thinkpadfixes/" "zjquid.github.io/" ".Xresources" ".emacs.d/" ".lesshst" "microemacs/" ".bash_logout" ".dbus/")
+
+ ("/home/andrew/.emacs.d/" (24915 53507 177680 361000) "splash.org" ".git/" "recentf" "update.sh" "config.org" "data/" "init.el" "ido.last" "smex-items" "./" "../" "README.org" ".org-id-locations" "splashtext.txt" "games/" "emacs_backup/" "agenda.org" "elpa/" "fortune.sh" "config.el" "auto-save-list/")
+
+ ("/home/andrew/dots/" (24895 54820 254574 146000) "deploy.sh" "x131e_xbindkeys" "openbox/" ".dwm/" ".git/" "andrew.zsh-theme" "picom/" "README.md" "awesome/" ".bashrc" "tint2/" "./" "../" "neovim.sh" "test.png" ".zshrc" "i3/" ".Xmodmap" "bspwm/" ".vimrc" ".Xresources" "polybar/" "kitty/")
 
  ("/home/andrew/dots/polybar/" (24875 8346 817805 893000) "config" "autorice_arch.sh" "../" "./" "launch.sh")
 
@@ -50,8 +57,6 @@
  ("/home/andrew/homework/" (24877 2960 31862 330000) ".git/" "../" "./")
 
  ("/home/andrew/zjquid.github.io/" (24877 2630 886063 718000) "index.org" "404.org" "dance.gif" ".git/" "latextest.html" "gabagool.gif" "psyc203.html" "latextest.org" "class1.org" "class1.html" "mech343.org" "../" "404.html" "caam335.html" "README.md" "chap1.html" ".#mech343.org" "./" "psyc203.org" "caam335.org" "mech371.html" "mech343.html" "index.html" "mech371.org" ".gitignore")
-
- ("/home/andrew/dots/" (24875 8346 817805 893000) "x131e_xbindkeys" ".git/" "bspwm/" ".zshrc" "polybar/" ".Xresources" "awesome/" "picom/" "i3/" "test.png" "../" "README.md" "deploy.sh" ".Xmodmap" "tint2/" ".vimrc" "andrew.zsh-theme" ".bashrc" "./" "openbox/" "neovim.sh" "kitty/" ".dwm/")
 
  ("/home/" (24849 30691 871369 804000) "andrew/" "../" "./")
 
