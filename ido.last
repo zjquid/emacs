@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/andrew/.config/" . "openbox/")
  ("/home/" . "andrew/")
  ("/home/andrew/.oh-my-zsh/" . "themes/")
  ("/home/andrew/dots/" . "openbox/")
@@ -10,9 +11,9 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/andrew/microemacs/.emacs.d/"
  "/home/andrew/.emacs.d/"
  "/home/andrew/"
+ "/home/andrew/.config/openbox/"
  "/home/andrew/dots/"
  "/home/andrew/zjquid.github.io/"
  "/home/andrew/homework/"
@@ -24,27 +25,27 @@
 
 ;; ----- ido-work-file-list -----
 (
- "init.el"
- "initold.el"
+ "splash.org"
+ "to"
+ "autostart"
  ".xinitrc"
  "x131e_xbindkeys"
+ "init.el"
  "temp.org"
  "token.txt"
  "mech343.org"
  "deploy.sh"
- "test.org"
- "index.org"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/andrew/microemacs/.emacs.d/" (24915 54762 490879 746000) "initold.el" "./" "../" "configold.org" "elpa/")
+ ("/home/andrew/.emacs.d/" (25147 64083 632838 507000) "splash.org" "andrew-theme.el" ".git/" "recentf" "update.sh" "config.org" "data/" "init.el" "ido.last" "smex-items" "./" "../" "README.org" ".org-id-locations" "splashtext.txt" "games/" "emacs_backup/" "agenda.org" "elpa/" "fortune.sh" "microemacs/" "config.el" "auto-save-list/" "url/")
 
- ("/home/andrew/microemacs/" (24915 54620 798314 27000) ".cache/" "./" "../" ".config/" ".emacs.d/")
+ ("/home/andrew/" (25147 64171 782360 961000) ".dmrc" ".dosbox/" "aoc/" ".bash_profile" "ebooks/" ".links/" "nerd-fonts/" ".xinitrc" ".pki/" ".viminfo" "Downloads/" "potentialcodecproblem" ".Xauthority" "wiig/" ".mozilla/" "Desktop/" ".python_history" "apps/" ".cache/" ".ash_history" "homework/" "RCT3/" ".fehbg" ".pulse-cookie" ".configbackup/" ".vim/" "token.txt" ".init.el" ".bashrc" "ch341a_pattern.png" ".local/" "monitor.sh" "to" ".bash_history" ".wine/" "sdcarddump/" "coreboot/" ".FBReader/" ".steampid" "polybar-themes/" "camera/" ".gnupg/" ".octave_hist" "neovim/" "./" ".xsession-errors" "writing/" "../" ".gitconfig" ".matlab/" ".icons/" ".zshrc" ".ssh/" ".Xmodmap" ".xsession-errors.old" "matlab/" ".config/" "thinkpadfixes/" "zjquid.github.io/" ".SoulseekQt/" ".Xresources" "FreezerMusic/" ".java/" ".emacs.d/" ".var/" ".lesshst" ".steampath" ".bash_logout" ".mpd/" ".nanorc" ".dbus/" ".steam/" ".gtkrc-2.0" "tanks.png")
 
- ("/home/andrew/" (24915 54809 197293 383000) "emacs-openrc/" "Death Proof.mp4" ".dmrc" ".bash_profile" "nerd-fonts/" ".xinitrc" ".viminfo" "Downloads/" "grub2-themes/" ".Xauthority" "wiig/" ".mozilla/" ".python_history" ".cache/" "homework/" ".fehbg" "read2.bin" ".vim/" "dots/" "token.txt" ".init.el" ".bashrc" "ch341a_pattern.png" ".local/" ".bash_history" "init.el" "polybar-themes/" ".octave_hist" "neovim/" "./" ".xsession-errors" "writing/" "../" ".gitconfig" ".xsession-errors.old" ".config/" "thinkpadfixes/" "zjquid.github.io/" ".Xresources" ".emacs.d/" ".lesshst" "microemacs/" ".bash_logout" ".dbus/")
+ ("/home/andrew/.config/openbox/" (25101 57665 498507 496000) "rc.xml" "environment" "./" "../" "rc_backup.xml" "autostart" "readme.md" "menu.xml")
 
- ("/home/andrew/.emacs.d/" (24915 53507 177680 361000) "splash.org" ".git/" "recentf" "update.sh" "config.org" "data/" "init.el" "ido.last" "smex-items" "./" "../" "README.org" ".org-id-locations" "splashtext.txt" "games/" "emacs_backup/" "agenda.org" "elpa/" "fortune.sh" "config.el" "auto-save-list/")
+ ("/home/andrew/.config/" (25096 32783 252731 891000) "nuclearthrone/" "nvim/" "lxsession/" "Mousepad/" "Thunar/" "nuclear/" "pavucontrol.ini" "openbox/" "gzdoom/" "qBittorrent/" "calibre/" "freezer/" "octave/" "scripts/" "qpdfview/" ".git/" "OpenRCT2/" "QtProject.conf" "picom/" "README.md" "gtk-3.0/" "awesome/" "tint2/" "htop/" "xfce4/" ".gitignore" "GIMP/" "cef_user_data/" "okularrc" "dotfiles/" "./" "chromium/" "../" "gtk-2.0/" "mimeapps.list" "pulse/" "neofetch/" "autostart/" "i3/" "mpv/" "bspwm/" "polybar/" "dconf/" "menus/" "zdoom/")
 
  ("/home/andrew/dots/" (24895 54820 254574 146000) "deploy.sh" "x131e_xbindkeys" "openbox/" ".dwm/" ".git/" "andrew.zsh-theme" "picom/" "README.md" "awesome/" ".bashrc" "tint2/" "./" "../" "neovim.sh" "test.png" ".zshrc" "i3/" ".Xmodmap" "bspwm/" ".vimrc" ".Xresources" "polybar/" "kitty/")
 
@@ -59,8 +60,6 @@
  ("/home/andrew/zjquid.github.io/" (24877 2630 886063 718000) "index.org" "404.org" "dance.gif" ".git/" "latextest.html" "gabagool.gif" "psyc203.html" "latextest.org" "class1.org" "class1.html" "mech343.org" "../" "404.html" "caam335.html" "README.md" "chap1.html" ".#mech343.org" "./" "psyc203.org" "caam335.org" "mech371.html" "mech343.html" "index.html" "mech371.org" ".gitignore")
 
  ("/home/" (24849 30691 871369 804000) "andrew/" "../" "./")
-
- ("/home/andrew/.config/" (24810 23746 39130 827000) "gtk-3.0/" "qBittorrent/" "evolution/" "eog/" "dconf/" "nautilus/" "polybar/" "gnome-session/" "i3/" "user-dirs.locale" "neofetch/" "update-notifier/" "gnome-initial-setup-done" "kitty/" "user-dirs.dirs" "goa-1.0/" "ibus/" "gnome-games/" "../" "pulse/" "gnome-control-center/" "./" "polybar.old/")
 
  ("/home/andrew/.oh-my-zsh/themes/" (24791 34992 868667 557000) "rkj.zsh-theme" "amuse.zsh-theme" "strug.zsh-theme" "dpoggi.zsh-theme" "mikeh.zsh-theme" "cypher.zsh-theme" "jnrowe.zsh-theme" "dallas.zsh-theme" "mortalscumbag.zsh-theme" "intheloop.zsh-theme" "suvash.zsh-theme" "mlh.zsh-theme" "sammy.zsh-theme" "3den.zsh-theme" "murilasso.zsh-theme" "frisk.zsh-theme" "blinks.zsh-theme" "nebirhos.zsh-theme" "gallifrey.zsh-theme" "smt.zsh-theme" "andrew.zsh-theme~" "crunch.zsh-theme" "darkblood.zsh-theme" "minimal.zsh-theme" "xiong-chiamiov.zsh-theme" "Soliah.zsh-theme" "bureau.zsh-theme" "muse.zsh-theme" "fishy.zsh-theme" "frontcube.zsh-theme" "tjkirch_mod.zsh-theme" "humza.zsh-theme" "../" "macovsky-ruby.zsh-theme" "candy.zsh-theme" "rixius.zsh-theme" "gozilla.zsh-theme" "fox.zsh-theme" "pygmalion.zsh-theme" "mh.zsh-theme" "agnoster.zsh-theme" "steeef.zsh-theme" "lukerandall.zsh-theme" "pygmalion-virtualenv.zsh-theme" "edvardm.zsh-theme" "re5et.zsh-theme" "dstufft.zsh-theme" "pmcgee.zsh-theme" "gallois.zsh-theme" "kafeitu.zsh-theme" "macovsky.zsh-theme" "miloshadzic.zsh-theme" "random.zsh-theme" "robbyrussell.zsh-theme" "clean.zsh-theme" "maran.zsh-theme" "apple.zsh-theme" "rgm.zsh-theme" "sorin.zsh-theme" "gnzh.zsh-theme" "sunaku.zsh-theme" "./" "josh.zsh-theme" "wuffers.zsh-theme" "gentoo.zsh-theme" "dst.zsh-theme" "mrtazz.zsh-theme" "refined.zsh-theme" "lambda.zsh-theme" "evan.zsh-theme" "candy-kingdom.zsh-theme" "jonathan.zsh-theme" "aussiegeek.zsh-theme" "superjarin.zsh-theme" "terminalparty.zsh-theme" "xiong-chiamiov-plus.zsh-theme" "arrow.zsh-theme" "simonoff.zsh-theme" "juanghurtado.zsh-theme" "simple.zsh-theme" "dieter.zsh-theme" "junkfood.zsh-theme" "af-magic.zsh-theme" "essembeh.zsh-theme" "philips.zsh-theme" "tonotdo.zsh-theme" "gianu.zsh-theme" "mira.zsh-theme" "kphoen.zsh-theme" "jreese.zsh-theme" "fino-time.zsh-theme" "kennethreitz.zsh-theme" "jtriley.zsh-theme" "geoffgarside.zsh-theme" "kiwi.zsh-theme" "jbergantine.zsh-theme" "trapd00r.zsh-theme" "sporty_256.zsh-theme" "risto.zsh-theme" "andrew.zsh-theme" "wedisagree.zsh-theme" "ys.zsh-theme" "nicoulaj.zsh-theme" "duellj.zsh-theme" "linuxonly.zsh-theme" "imajes.zsh-theme" "fino.zsh-theme" "tjkirch.zsh-theme" "fletcherm.zsh-theme" "peepcode.zsh-theme" "zhann.zsh-theme" "daveverwer.zsh-theme" "half-life.zsh-theme" "itchy.zsh-theme" "kardan.zsh-theme" "michelebologna.zsh-theme" "cloud.zsh-theme" "bira.zsh-theme" "flazz.zsh-theme" "garyblessington.zsh-theme" "mgutz.zsh-theme" "rkj-repos.zsh-theme" "awesomepanda.zsh-theme" "jaischeema.zsh-theme" "dogenpunk.zsh-theme" "wezm.zsh-theme" "fwalch.zsh-theme" "norm.zsh-theme" "eastwood.zsh-theme" "alanpeabody.zsh-theme" "emotty.zsh-theme" "sunrise.zsh-theme" "afowler.zsh-theme" "avit.zsh-theme" "sonicradish.zsh-theme" "takashiyoshida.zsh-theme" "adben.zsh-theme" "funky.zsh-theme" "jispwoso.zsh-theme" "nanotech.zsh-theme" "kolo.zsh-theme" "crcandy.zsh-theme" "obraun.zsh-theme" "theunraveler.zsh-theme" "skaro.zsh-theme" "wezm+.zsh-theme")
 

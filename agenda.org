@@ -1,8 +1,15 @@
 Org Agenda File
 
 * Tasks
-** TODO emacs tutorial super basic??
-** TODO org mode tutorial - if yt doesn't have any?
+** DONE econ review video
+** DONE get food (100% tacquito!!)
+** DONE econ review
+** DONE econ midterm (midnight)
+** DONE caam hw3 (midnight)
+** TODO math hw4
+
+** TODO (linux) setup ipod automount to /mnt/ipod
+** TODO (computer) setup big ssd in PC
    
 
 

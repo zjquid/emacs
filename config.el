@@ -104,7 +104,8 @@
   (dashboard-setup-startup-hook))
 
 (setq dashboard-banner-logo-title "Good Morning, Andrew")
-(setq dashboard-startup-banner "~/.emacs.d/splashtext.txt")
+(setq dashboard-startup-banner "~/.emacs.d/gnuemacs.png")
+(setq dashboard-center-content t)
 (setq dashboard-show-shortcuts nil)
 (setq dashboard-set-heading-icons t)
 (setq dashboard-set-file-icons t)
@@ -118,6 +119,13 @@
 						   :face 'font-lock-keyword-face))
 
 (setq dashboard-week-agenda t)
+
+(setq dashboard-items '((recents  . 5)
+                        ;(bookmarks . 5)
+                        ;(projects . 5)
+                        ;(agenda . 5)
+                        ;(registers . 5)
+                        ))
 
 ;; (use-package auctex
 ;;   :ensure t)

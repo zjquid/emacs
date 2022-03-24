@@ -169,7 +169,8 @@
 ** Dashboard Configuartion
 #+begin_src emacs-lisp
   (setq dashboard-banner-logo-title "Good Morning, Andrew")
-  (setq dashboard-startup-banner "~/.emacs.d/splashtext.txt")
+  (setq dashboard-startup-banner "~/.emacs.d/gnuemacs.png")
+  (setq dashboard-center-content t)
   (setq dashboard-show-shortcuts nil)
   (setq dashboard-set-heading-icons t)
   (setq dashboard-set-file-icons t)
@@ -194,6 +195,15 @@
   (setq dashboard-week-agenda t)
 #+end_src
 
+** Dashboard Items
+#+begin_src emacs-lisp
+  (setq dashboard-items '((recents  . 5)
+                          ;(bookmarks . 5)
+                          ;(projects . 5)
+                          ;(agenda . 5)
+                          ;(registers . 5)
+                          ))
+#+end_src
 * Org Agenda
 * LaTeX
 ** AucTeX package
